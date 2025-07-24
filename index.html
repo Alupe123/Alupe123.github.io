@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4CAF50">
+  <meta name="description" content="Wesonga Enterprise - Agribusiness solutions and financial education">
+  
+  <!-- PWA Meta Tags -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+  <title>WESONGA ENTERPRISE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loader-container">
+    <img src="images/flevian.jpg" alt="Wesonga Logo">
+    <h1>WESONGA ENTERPRISE</h1>
+    <div class="loader"></div>
+    <p class="progress-text">Loading: 0%</p>
+  </div>
+
+  <!-- Install Button -->
+  <button id="installBtn" class="install-button">Install App</button>
+
+  <!-- Main Content -->
+  <div class="content" style="display:none;">
+    <!-- Header Section -->
+    <div class="header">
+      <a href="#" class="logo"><sup>A</sup><span>S</span><sub>Agridero</sub></a>
+      <nav>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SKILLS</a></li>
+            <li><a href="#">REFERENCE</a></li>
+            <li><a href="#">DETAILS</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="home">
+      <div class="content">
+        <h3>HI am DERICK</h3>
+        <h1>Welcome to our online <span>Podcast</span></h1>
+        <h4>Here we learn ABOUT fundamentals of AGRIBUSINESS.<br>
+        Profitation is not all about making money but all about managing what you have.</h4>
+      </div>
+      <div>
+        <a href="#" class="content-btn">Watch NOW</a>
+        <a href="#" class="content-btn">Download</a>
+        <a href="#" class="content-btn">Subscribe</a>
+        <a href="#" class="content-btn">Share</a>
+      </div>
+      <div class="content-img">
+        <img src="images/edit.jpg" alt="Content Image">
+      </div>
+    </section>
+
+    <!-- Side Navigation -->
+    <section class="sideNav">
+      <div class="menu">
+        <div class="top">
+          <button onclick="openMenu(this)" class="menu-btn">Menu</button>
+        </div>
+        <ul class="list">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">SKILLS</a></li>
+          <li><a href="#">REFERENCE</a></li>
+          <li><a href="#">DETAILS</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="about">
+        <img src="images/about.jpg" alt="About Derick">
+        <p>Derick started the blog year ago.<br>It handles business Fundamentals and recruiting young<br>individuals on becoming entrepreneur in this modern age.<br>The blog is incorporating all ideas from experts around the globe.<br>By studying financial books<br>Derick has well profound knowledge when it comes to income generation.</p>
+      </div>
+      <div class="icons">
+        <i class="ic"><img src="images/whatsup.jpg" alt="WhatsApp"></i>
+        <i class="ic"><img src="images/call.jpg" alt="Call"></i>
+        <i class="ic"><img src="images/messages.jpg" alt="Messages"></i>
+        <i class="ic"><img src="images/logo.jpg" alt="Logo"></i>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <p>Home Of Financial Success</p>
+      <h1>Our Services</h1>
+      <div class="services">
+        <div class="container">
+          <img src="images/m.jpg" alt="Production Skills">
+          <h2>Production skills</h2>
+          <h4>Production is the initial step when it comes to entrepreneurship</h4>
+          <a class="container-btn" href="#">Read more</a>
+        </div>
+        <div class="container">
+          <img src="photo.jpg" alt="Management Skills">
+          <h2>Management skills</h2>
+          <h4>How do you manage the resources available to you</h4>
+          <a class="container-btn" href="#">Read more</a>
+        </div>
+        <div class="container">
+          <img src="pic.jpg" alt="Marketing Skills">
+          <h2>Marketing skills</h2>
+          <h4>Now that you have managed the products well can you now carry out market analysis</h4>
+          <a class="container-btn" href="#">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="touch">
+      <hr><h2>Get In Touch</h2><hr>
+      <div class="basic-info">
+        <h1>location</h1>
+        <p>Kakamega</p>
+        <h1>Phone</h1>
+        <p>+254113028686</p>
+        <h1>Email</h1>
+        <p>wesongaderick28@gmail.com</p>
+        <h1>Consultation</h1>
+        <p>Everyday from Mon - Fri</p>
+      </div>
+      <div class="form-info">
+        <h3>Name</h3>
+        <input type="text" placeholder="Enter Your Name">
+        <h3>Email</h3>
+        <input type="text" placeholder="Enter Email">
+        <h3>Subject</h3>
+        <input type="text" placeholder="Subject matter">
+        <h3>Message</h3>
+        <textarea placeholder="Enter your message"></textarea>
+        <button>Send Message</button>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer">
+      <div class="footer-info">
+        <h1>Derick Wesonga</h1>
+        <p>It is great having my running system of business</p>
+      </div>
+      <div class="footer-service">
+        <ul>
+          <li>Production</li>
+          <li>Management</li>
+          <li>Marketing</li>
+          <li>Customer Management</li>
+          <li>Business Awareness</li>
+        </ul>
+      </div>
+      <div class="quick-links">
+        <h1>Quick Links</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Get in touch</a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js">
+
+</body>
+</html>
